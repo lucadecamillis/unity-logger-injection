@@ -1,2 +1,2 @@
-# unity-logger-injection
-Automatically inject ILog from the unity container
+# Unity Logger Injection
+Automatically inject `Microsoft.Extensions.Logging.ILogger` as property from the unity container.
