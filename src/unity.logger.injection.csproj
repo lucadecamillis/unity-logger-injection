@@ -1,7 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Description>Automatically inject Microsoft.Extensions.Logging.ILogger as property from the unity container</Description>
+    <AssemblyTitle>Unity.Logger.Injection</AssemblyTitle>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Luca De Camillis</Authors>
+    <PackageId>Unity.Logger.Injection</PackageId>
+    <PackageTags>injection-framework;unity-container;microsoft-extensions-logging;property-injection;ilogger;iloggerfactory</PackageTags>
+    <PackageDescription>Automatically inject Microsoft.Extensions.Logging.ILogger as property from the unity container</PackageDescription>
+    <PackageProjectUrl>https://github.com/lucadecamillis/unity-logger-injection</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/lucadecamillis/unity-logger-injection</RepositoryUrl>
+    <Version>0.1.0</Version>
+
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <DebugSymbols>true</DebugSymbols>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <IsPackable>true</IsPackable>
   </PropertyGroup>
 
   <ItemGroup>
