@@ -7,9 +7,12 @@ using Unity.Processors;
 
 namespace Unity.Logger.Injection
 {
+	/// <summary>
+	/// Implement the property injection for the logger
+	/// </summary>
 	internal class CustomPropertyProcessor : PropertyProcessor
 	{
-		static readonly string[] customProperties = { "Template", "Logger" };
+		static readonly string[] loggerProperties = { "Logger" };
 
 		public CustomPropertyProcessor() : base(new EmptyPolicySet())
 		{
@@ -31,7 +34,7 @@ namespace Unity.Logger.Injection
 
 		private static bool ShouldBeInjected(PropertyInfo propertyInfo)
 		{
-			return customProperties.Contains(propertyInfo.Name);
+			return loggerProperties.Contains(propertyInfo.Name);
 		}
 	}
 }

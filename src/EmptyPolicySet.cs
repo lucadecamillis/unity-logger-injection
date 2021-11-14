@@ -3,6 +3,9 @@ using Unity.Policy;
 
 namespace Unity.Logger.Injection
 {
+	/// <summary>
+	/// Empty policy set
+	/// </summary>
 	internal class EmptyPolicySet : IPolicySet
 	{
 		public void Clear(Type policyInterface)
@@ -17,7 +20,7 @@ namespace Unity.Logger.Injection
 
 		public void Set(Type policyInterface, object policy)
 		{
-			
+
 		}
 	}
 }

@@ -6,6 +6,9 @@ using Unity.Strategies;
 
 namespace Unity.Logger.Injection
 {
+	/// <summary>
+	/// Implement the build strategy to inject the logger
+	/// </summary>
 	internal class CustomInjectionBuilderStrategy : BuilderStrategy
 	{
 		readonly CustomPropertyProcessor propertyProcessor;

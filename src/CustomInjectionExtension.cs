@@ -5,6 +5,9 @@ using Unity.Extension;
 
 namespace Unity.Logger.Injection
 {
+	/// <summary>
+	/// Unity extension which automatically inject ILogger on container instantiated objects
+	/// </summary>
 	public class CustomInjectionExtension : UnityContainerExtension
 	{
 		readonly ILogger logger;
