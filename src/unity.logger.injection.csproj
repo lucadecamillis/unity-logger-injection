@@ -5,7 +5,7 @@
     <AssemblyTitle>Unity.Logger.Injection</AssemblyTitle>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Luca De Camillis</Authors>
-    <PackageId>Unity.ILogger.Injection</PackageId>
+    <PackageId>UnityContainer.Logger.Injection</PackageId>
     <PackageTags>injection-framework;unity-container;microsoft-extensions-logging;property-injection;ilogger;iloggerfactory</PackageTags>
     <PackageDescription>Automatically inject Microsoft.Extensions.Logging.ILogger as property from the unity container</PackageDescription>
     <PackageProjectUrl>https://github.com/lucadecamillis/unity-logger-injection</PackageProjectUrl>
