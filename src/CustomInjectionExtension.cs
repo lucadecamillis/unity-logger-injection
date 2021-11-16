@@ -12,7 +12,7 @@ namespace Unity.Logger.Injection
 	{
 		readonly ILogger logger;
 
-		public CustomInjectionExtension(ILogger logger)
+		public CustomInjectionExtension(ILogger<CustomInjectionExtension> logger)
 		{
 			if (logger is null)
 			{
