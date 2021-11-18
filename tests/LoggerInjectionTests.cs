@@ -20,6 +20,8 @@ namespace Unity.Logger.Injection.Tests
 		{
 			IUnityContainer container = WireUp();
 
+			container.AddNewExtension<CustomInjectionExtension>();
+
 			LoggerInCtor candidate = container.Resolve<LoggerInCtor>();
 			Assert.True(candidate.LogInjected());
 		}

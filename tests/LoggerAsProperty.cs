@@ -4,6 +4,6 @@ namespace Unity.Logger.Injection.Tests
 {
 	public class LoggerAsProperty
 	{
-		public ILogger<LoggerAsProperty> Logger { get; set; }
+		public ILogger Logger { get; set; }
 	}
 }

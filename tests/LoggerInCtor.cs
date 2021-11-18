@@ -6,7 +6,7 @@ namespace Unity.Logger.Injection.Tests
 	{
 		private readonly ILogger logger;
 
-		public LoggerInCtor(ILogger<LoggerInCtor> logger)
+		public LoggerInCtor(ILogger logger)
 		{
 			this.logger = logger;
 		}
